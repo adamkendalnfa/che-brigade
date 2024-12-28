@@ -1,6 +1,33 @@
-@import "normalize";
+.che-brigade {
+  @import "variables";
+  @import "normalize";
+  @import "pages/landing";
+  margin: 0;
 
 
-a {
-  color: blue;
+  .container {
+    
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (min-width: $grid-md) {
+        max-width: 1440px;
+      }
+
+  }
+
+  .mobile-only {
+    @media (min-width: $grid-md) {
+      display: none;
+    }
+  }
+
+  .desktop-only {
+    @media (max-width: $grid-sm-max) {
+      display: none;
+    }
+  }
 }

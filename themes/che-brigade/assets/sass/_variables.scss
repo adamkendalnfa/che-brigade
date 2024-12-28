@@ -1,0 +1,39 @@
+// Media query variables
+
+$grid-breakpoints: (
+  xs: 0,
+  //mobile
+  sm: 576px,
+  md: 768px,
+  // tablet
+  lg: 992px,
+  // 13" laptop
+  xl: 1400px,
+  // Everything bigger (15"+)
+);
+
+$grid-sm: map-get($map: $grid-breakpoints,
+    $key: "sm",
+  );
+$grid-md: map-get($map: $grid-breakpoints,
+    $key: "md",
+  );
+$grid-lg: map-get($map: $grid-breakpoints,
+    $key: "lg",
+  );
+$grid-xl: map-get($map: $grid-breakpoints,
+    $key: "xl",
+  );
+
+$grid-sm-max: $grid-md - 1;
+$grid-md-max: $grid-lg - 1;
+$grid-lg-max: $grid-xl - 1;
+
+$blue: #1375BA;
+$red: #D32E0D;
+
+// calling method
+
+// @media #{$breakpoint-xl}{
+
+// }

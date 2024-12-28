@@ -1,273 +1,342 @@
-/*!
-Theme Name: che-brigade
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
-Version: 1.0.0
-Tested up to: 5.4
-Requires PHP: 5.6
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: che-brigade
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+.che-brigade {
+  /*!
+  Theme Name: che-brigade
+  Theme URI: http://underscores.me/
+  Author: Underscores.me
+  Author URI: http://underscores.me/
+  Description: Description
+  Version: 1.0.0
+  Tested up to: 5.4
+  Requires PHP: 5.6
+  License: GNU General Public License v2 or later
+  License URI: LICENSE
+  Text Domain: che-brigade
+  Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned.
+  This theme, like WordPress, is licensed under the GPL.
+  Use it to make something cool, have fun, and share what you've learned.
 
-che-brigade is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
+  che-brigade is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+  Underscores is distributed under the terms of the GNU GPL v2 or later.
 
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-*/
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Generic
-	- Normalize
-	- Box sizing
-# Base
-	- Typography
-	- Elements
-	- Links
-	- Forms
-## Layouts
-# Components
-	- Navigation
-	- Posts and pages
-	- Comments
-	- Widgets
-	- Media
-	- Captions
-	- Galleries
-# plugins
-	- Jetpack infinite scroll
-# Utilities
-	- Accessibility
-	- Alignments
+  Normalizing styles have been helped along thanks to the fine work of
+  Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+  */
+  /*--------------------------------------------------------------
+  >>> TABLE OF CONTENTS:
+  ----------------------------------------------------------------
+  # Generic
+  	- Normalize
+  	- Box sizing
+  # Base
+  	- Typography
+  	- Elements
+  	- Links
+  	- Forms
+  ## Layouts
+  # Components
+  	- Navigation
+  	- Posts and pages
+  	- Comments
+  	- Widgets
+  	- Media
+  	- Captions
+  	- Galleries
+  # plugins
+  	- Jetpack infinite scroll
+  # Utilities
+  	- Accessibility
+  	- Alignments
 
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Generic
---------------------------------------------------------------*/
-/* Normalize
---------------------------------------------- */
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Document
-	 ========================================================================== */
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-html {
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Generic
+  --------------------------------------------------------------*/
+  /* Normalize
+  --------------------------------------------- */
+  /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+  /* Document
+  	 ========================================================================== */
+  /**
+   * 1. Correct the line height in all browsers.
+   * 2. Prevent adjustments of font size after orientation changes in iOS.
+   */
+  /* Sections
+  	 ========================================================================== */
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  /* Grouping content
+  	 ========================================================================== */
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  /* Text-level semantics
+  	 ========================================================================== */
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  /**
+   * Add the correct font size in all browsers.
+   */
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  /* Embedded content
+  	 ========================================================================== */
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  /* Forms
+  	 ========================================================================== */
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  /**
+   * Correct the padding in Firefox.
+   */
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *		`fieldset` elements in all browsers.
+   */
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  /* Interactive
+  	 ========================================================================== */
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  /*
+   * Add the correct display in all browsers.
+   */
+  /* Misc
+  	 ========================================================================== */
+  /**
+   * Add the correct display in IE 10+.
+   */
+  /**
+   * Add the correct display in IE 10.
+   */
+  /* Box sizing
+  --------------------------------------------- */
+  /* Inherit box-sizing to more easily change it's value on a component level.
+  @link http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  /*--------------------------------------------------------------
+  # Base
+  --------------------------------------------------------------*/
+  /* Typography
+  --------------------------------------------- */
+  /* Elements
+  --------------------------------------------- */
+  /* Make sure embeds and iframes fit their containers. */
+  /* Links
+  --------------------------------------------- */
+  /* Forms
+  --------------------------------------------- */
+  /*--------------------------------------------------------------
+  # Layouts
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Components
+  --------------------------------------------------------------*/
+  /* Navigation
+  --------------------------------------------- */
+  /* Small menu. */
+  /* Posts and pages
+  --------------------------------------------- */
+  /* Comments
+  --------------------------------------------- */
+  /* Widgets
+  --------------------------------------------- */
+  /* Media
+  --------------------------------------------- */
+  /* Make sure logo link wraps around logo image. */
+  /* Captions
+  --------------------------------------------- */
+  /* Galleries
+  --------------------------------------------- */
+  /*--------------------------------------------------------------
+  # Plugins
+  --------------------------------------------------------------*/
+  /* Jetpack infinite scroll
+  --------------------------------------------- */
+  /* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
+  /* Re-display the Theme Footer when Infinite Scroll has reached its end. */
+  /*--------------------------------------------------------------
+  # Utilities
+  --------------------------------------------------------------*/
+  /* Accessibility
+  --------------------------------------------- */
+  /* Text meant only for screen readers. */
+  /* Do not show the outline on the skip link target. */
+  /* Alignments
+  --------------------------------------------- */
+  margin: 0;
+}
+.che-brigade html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
-
-/* Sections
-	 ========================================================================== */
-/**
- * Remove the margin in all browsers.
- */
-body {
-  margin: 0;
-}
-
-/**
- * Render the `main` element consistently in IE.
- */
-main {
+.che-brigade main {
   display: block;
 }
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 {
+.che-brigade h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-
-/* Grouping content
-	 ========================================================================== */
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-hr {
+.che-brigade hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-pre {
+.che-brigade pre {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-
-/* Text-level semantics
-	 ========================================================================== */
-/**
- * Remove the gray background on active links in IE 10.
- */
-a {
+.che-brigade a {
   background-color: transparent;
 }
-
-/**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-abbr[title] {
+.che-brigade abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
 }
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-b,
-strong {
+.che-brigade b,
+.che-brigade strong {
   font-weight: bolder;
 }
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-code,
-kbd,
-samp {
+.che-brigade code,
+.che-brigade kbd,
+.che-brigade samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-
-/**
- * Add the correct font size in all browsers.
- */
-small {
+.che-brigade small {
   font-size: 80%;
 }
-
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
-sub,
-sup {
+.che-brigade sub,
+.che-brigade sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
-
-sub {
+.che-brigade sub {
   bottom: -0.25em;
 }
-
-sup {
+.che-brigade sup {
   top: -0.5em;
 }
-
-/* Embedded content
-	 ========================================================================== */
-/**
- * Remove the border on images inside links in IE 10.
- */
-img {
+.che-brigade img {
   border-style: none;
 }
-
-/* Forms
-	 ========================================================================== */
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
-button,
-input,
-optgroup,
-select,
-textarea {
+.che-brigade button,
+.che-brigade input,
+.che-brigade optgroup,
+.che-brigade select,
+.che-brigade textarea {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
 }
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-button,
-input {
+.che-brigade button,
+.che-brigade input {
   overflow: visible;
 }
-
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-button,
-select {
+.che-brigade button,
+.che-brigade select {
   text-transform: none;
 }
-
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
-button,
-[type=button],
-[type=reset],
-[type=submit] {
+.che-brigade button,
+.che-brigade [type=button],
+.che-brigade [type=reset],
+.che-brigade [type=submit] {
   -webkit-appearance: button;
   -moz-appearance: button;
        appearance: button;
 }
-
-/**
- * Remove the inner border and padding in Firefox.
- */
-button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+.che-brigade button::-moz-focus-inner,
+.che-brigade [type=button]::-moz-focus-inner,
+.che-brigade [type=reset]::-moz-focus-inner,
+.che-brigade [type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
-
-/**
- * Restore the focus styles unset by the previous rule.
- */
-button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+.che-brigade button:-moz-focusring,
+.che-brigade [type=button]:-moz-focusring,
+.che-brigade [type=reset]:-moz-focusring,
+.che-brigade [type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
-
-/**
- * Correct the padding in Firefox.
- */
-fieldset {
+.che-brigade fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
-
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *		`fieldset` elements in all browsers.
- */
-legend {
+.che-brigade legend {
   box-sizing: border-box;
   color: inherit;
   display: table;
@@ -275,158 +344,89 @@ legend {
   padding: 0;
   white-space: normal;
 }
-
-/**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-progress {
+.che-brigade progress {
   vertical-align: baseline;
 }
-
-/**
- * Remove the default vertical scrollbar in IE 10+.
- */
-textarea {
+.che-brigade textarea {
   overflow: auto;
 }
-
-/**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
- */
-[type=checkbox],
-[type=radio] {
+.che-brigade [type=checkbox],
+.che-brigade [type=radio] {
   box-sizing: border-box;
   padding: 0;
 }
-
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+.che-brigade [type=number]::-webkit-inner-spin-button,
+.che-brigade [type=number]::-webkit-outer-spin-button {
   height: auto;
 }
-
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-[type=search] {
+.che-brigade [type=search] {
   -webkit-appearance: textfield;
   -moz-appearance: textfield;
        appearance: textfield;
   outline-offset: -2px;
 }
-
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
-[type=search]::-webkit-search-decoration {
+.che-brigade [type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-::-webkit-file-upload-button {
+.che-brigade ::-webkit-file-upload-button {
   -webkit-appearance: button;
   font: inherit;
 }
-
-/* Interactive
-	 ========================================================================== */
-/*
- * Add the correct display in Edge, IE 10+, and Firefox.
- */
-details {
+.che-brigade details {
   display: block;
 }
-
-/*
- * Add the correct display in all browsers.
- */
-summary {
+.che-brigade summary {
   display: list-item;
 }
-
-/* Misc
-	 ========================================================================== */
-/**
- * Add the correct display in IE 10+.
- */
-template {
+.che-brigade template {
   display: none;
 }
-
-/**
- * Add the correct display in IE 10.
- */
-[hidden] {
+.che-brigade [hidden] {
   display: none;
 }
-
-/* Box sizing
---------------------------------------------- */
-/* Inherit box-sizing to more easily change it's value on a component level.
-@link http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-*,
-*::before,
-*::after {
+.che-brigade *,
+.che-brigade *::before,
+.che-brigade *::after {
   box-sizing: inherit;
 }
-
-html {
+.che-brigade html {
   box-sizing: border-box;
 }
-
-/*--------------------------------------------------------------
-# Base
---------------------------------------------------------------*/
-/* Typography
---------------------------------------------- */
-body,
-button,
-input,
-select,
-optgroup,
-textarea {
+.che-brigade body,
+.che-brigade button,
+.che-brigade input,
+.che-brigade select,
+.che-brigade optgroup,
+.che-brigade textarea {
   color: #404040;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.che-brigade h1,
+.che-brigade h2,
+.che-brigade h3,
+.che-brigade h4,
+.che-brigade h5,
+.che-brigade h6 {
   clear: both;
 }
-
-p {
+.che-brigade p {
   margin-bottom: 1.5em;
 }
-
-dfn,
-cite,
-em,
-i {
+.che-brigade dfn,
+.che-brigade cite,
+.che-brigade em,
+.che-brigade i {
   font-style: italic;
 }
-
-blockquote {
+.che-brigade blockquote {
   margin: 0 1.5em;
 }
-
-address {
+.che-brigade address {
   margin: 0 0 1.5em;
 }
-
-pre {
+.che-brigade pre {
   background: #eee;
   font-family: "Courier 10 Pitch", courier, monospace;
   line-height: 1.6;
@@ -435,122 +435,93 @@ pre {
   overflow: auto;
   padding: 1.6em;
 }
-
-code,
-kbd,
-tt,
-var {
+.che-brigade code,
+.che-brigade kbd,
+.che-brigade tt,
+.che-brigade var {
   font-family: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
-
-abbr,
-acronym {
+.che-brigade abbr,
+.che-brigade acronym {
   border-bottom: 1px dotted #666;
   cursor: help;
 }
-
-mark,
-ins {
+.che-brigade mark,
+.che-brigade ins {
   background: #fff9c0;
   text-decoration: none;
 }
-
-big {
+.che-brigade big {
   font-size: 125%;
 }
-
-/* Elements
---------------------------------------------- */
-body {
+.che-brigade body {
   background: #fff;
 }
-
-hr {
+.che-brigade hr {
   background-color: #ccc;
   border: 0;
   height: 1px;
   margin-bottom: 1.5em;
 }
-
-ul,
-ol {
+.che-brigade ul,
+.che-brigade ol {
   margin: 0 0 1.5em 3em;
 }
-
-ul {
+.che-brigade ul {
   list-style: disc;
 }
-
-ol {
+.che-brigade ol {
   list-style: decimal;
 }
-
-li > ul,
-li > ol {
+.che-brigade li > ul,
+.che-brigade li > ol {
   margin-bottom: 0;
   margin-left: 1.5em;
 }
-
-dt {
+.che-brigade dt {
   font-weight: 700;
 }
-
-dd {
+.che-brigade dd {
   margin: 0 1.5em 1.5em;
 }
-
-/* Make sure embeds and iframes fit their containers. */
-embed,
-iframe,
-object {
+.che-brigade embed,
+.che-brigade iframe,
+.che-brigade object {
   max-width: 100%;
 }
-
-img {
+.che-brigade img {
   height: auto;
   max-width: 100%;
 }
-
-figure {
+.che-brigade figure {
   margin: 1em 0;
 }
-
-table {
+.che-brigade table {
   margin: 0 0 1.5em;
   width: 100%;
 }
-
-/* Links
---------------------------------------------- */
-a {
+.che-brigade a {
   color: #4169e1;
 }
-
-a:visited {
+.che-brigade a:visited {
   color: #800080;
 }
-
-a:hover,
-a:focus,
-a:active {
+.che-brigade a:hover,
+.che-brigade a:focus,
+.che-brigade a:active {
   color: #191970;
 }
-
-a:focus {
+.che-brigade a:focus {
   outline: thin dotted;
 }
-
-a:hover,
-a:active {
+.che-brigade a:hover,
+.che-brigade a:active {
   outline: 0;
 }
-
-/* Forms
---------------------------------------------- */
-button,
-input[type=button],
-input[type=reset],
-input[type=submit] {
+.che-brigade button,
+.che-brigade input[type=button],
+.che-brigade input[type=reset],
+.che-brigade input[type=submit] {
   border: 1px solid;
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
@@ -559,95 +530,78 @@ input[type=submit] {
   line-height: 1;
   padding: 0.6em 1em 0.4em;
 }
-
-button:hover,
-input[type=button]:hover,
-input[type=reset]:hover,
-input[type=submit]:hover {
+.che-brigade button:hover,
+.che-brigade input[type=button]:hover,
+.che-brigade input[type=reset]:hover,
+.che-brigade input[type=submit]:hover {
   border-color: #ccc #bbb #aaa;
 }
-
-button:active,
-button:focus,
-input[type=button]:active,
-input[type=button]:focus,
-input[type=reset]:active,
-input[type=reset]:focus,
-input[type=submit]:active,
-input[type=submit]:focus {
+.che-brigade button:active,
+.che-brigade button:focus,
+.che-brigade input[type=button]:active,
+.che-brigade input[type=button]:focus,
+.che-brigade input[type=reset]:active,
+.che-brigade input[type=reset]:focus,
+.che-brigade input[type=submit]:active,
+.che-brigade input[type=submit]:focus {
   border-color: #aaa #bbb #bbb;
 }
-
-input[type=text],
-input[type=email],
-input[type=url],
-input[type=password],
-input[type=search],
-input[type=number],
-input[type=tel],
-input[type=range],
-input[type=date],
-input[type=month],
-input[type=week],
-input[type=time],
-input[type=datetime],
-input[type=datetime-local],
-input[type=color],
-textarea {
+.che-brigade input[type=text],
+.che-brigade input[type=email],
+.che-brigade input[type=url],
+.che-brigade input[type=password],
+.che-brigade input[type=search],
+.che-brigade input[type=number],
+.che-brigade input[type=tel],
+.che-brigade input[type=range],
+.che-brigade input[type=date],
+.che-brigade input[type=month],
+.che-brigade input[type=week],
+.che-brigade input[type=time],
+.che-brigade input[type=datetime],
+.che-brigade input[type=datetime-local],
+.che-brigade input[type=color],
+.che-brigade textarea {
   color: #666;
   border: 1px solid #ccc;
   border-radius: 3px;
   padding: 3px;
 }
-
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=url]:focus,
-input[type=password]:focus,
-input[type=search]:focus,
-input[type=number]:focus,
-input[type=tel]:focus,
-input[type=range]:focus,
-input[type=date]:focus,
-input[type=month]:focus,
-input[type=week]:focus,
-input[type=time]:focus,
-input[type=datetime]:focus,
-input[type=datetime-local]:focus,
-input[type=color]:focus,
-textarea:focus {
+.che-brigade input[type=text]:focus,
+.che-brigade input[type=email]:focus,
+.che-brigade input[type=url]:focus,
+.che-brigade input[type=password]:focus,
+.che-brigade input[type=search]:focus,
+.che-brigade input[type=number]:focus,
+.che-brigade input[type=tel]:focus,
+.che-brigade input[type=range]:focus,
+.che-brigade input[type=date]:focus,
+.che-brigade input[type=month]:focus,
+.che-brigade input[type=week]:focus,
+.che-brigade input[type=time]:focus,
+.che-brigade input[type=datetime]:focus,
+.che-brigade input[type=datetime-local]:focus,
+.che-brigade input[type=color]:focus,
+.che-brigade textarea:focus {
   color: #111;
 }
-
-select {
+.che-brigade select {
   border: 1px solid #ccc;
 }
-
-textarea {
+.che-brigade textarea {
   width: 100%;
 }
-
-/*--------------------------------------------------------------
-# Layouts
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Components
---------------------------------------------------------------*/
-/* Navigation
---------------------------------------------- */
-.main-navigation {
+.che-brigade .main-navigation {
   display: block;
   width: 100%;
 }
-
-.main-navigation ul {
+.che-brigade .main-navigation ul {
   display: none;
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
-
-.main-navigation ul ul {
+.che-brigade .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
   position: absolute;
@@ -655,231 +609,164 @@ textarea {
   left: -999em;
   z-index: 99999;
 }
-
-.main-navigation ul ul ul {
+.che-brigade .main-navigation ul ul ul {
   left: -999em;
   top: 0;
 }
-
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
+.che-brigade .main-navigation ul ul li:hover > ul,
+.che-brigade .main-navigation ul ul li.focus > ul {
   display: block;
   left: auto;
 }
-
-.main-navigation ul ul a {
+.che-brigade .main-navigation ul ul a {
   width: 200px;
 }
-
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
+.che-brigade .main-navigation ul li:hover > ul,
+.che-brigade .main-navigation ul li.focus > ul {
   left: auto;
 }
-
-.main-navigation li {
+.che-brigade .main-navigation li {
   position: relative;
 }
-
-.main-navigation a {
+.che-brigade .main-navigation a {
   display: block;
   text-decoration: none;
 }
-
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
+.che-brigade .menu-toggle,
+.che-brigade .main-navigation.toggled ul {
   display: block;
 }
-
 @media screen and (min-width: 37.5em) {
-  .menu-toggle {
+  .che-brigade .menu-toggle {
     display: none;
   }
-  .main-navigation ul {
+  .che-brigade .main-navigation ul {
     display: flex;
   }
 }
-.site-main .comment-navigation,
-.site-main .posts-navigation,
-.site-main .post-navigation {
+.che-brigade .site-main .comment-navigation,
+.che-brigade .site-main .posts-navigation,
+.che-brigade .site-main .post-navigation {
   margin: 0 0 1.5em;
 }
-
-.comment-navigation .nav-links,
-.posts-navigation .nav-links,
-.post-navigation .nav-links {
+.che-brigade .comment-navigation .nav-links,
+.che-brigade .posts-navigation .nav-links,
+.che-brigade .post-navigation .nav-links {
   display: flex;
 }
-
-.comment-navigation .nav-previous,
-.posts-navigation .nav-previous,
-.post-navigation .nav-previous {
+.che-brigade .comment-navigation .nav-previous,
+.che-brigade .posts-navigation .nav-previous,
+.che-brigade .post-navigation .nav-previous {
   flex: 1 0 50%;
 }
-
-.comment-navigation .nav-next,
-.posts-navigation .nav-next,
-.post-navigation .nav-next {
+.che-brigade .comment-navigation .nav-next,
+.che-brigade .posts-navigation .nav-next,
+.che-brigade .post-navigation .nav-next {
   text-align: end;
   flex: 1 0 50%;
 }
-
-/* Posts and pages
---------------------------------------------- */
-.sticky {
+.che-brigade .sticky {
   display: block;
 }
-
-.post,
-.page {
+.che-brigade .post,
+.che-brigade .page {
   margin: 0 0 1.5em;
 }
-
-.updated:not(.published) {
+.che-brigade .updated:not(.published) {
   display: none;
 }
-
-.page-content,
-.entry-content,
-.entry-summary {
+.che-brigade .page-content,
+.che-brigade .entry-content,
+.che-brigade .entry-summary {
   margin: 1.5em 0 0;
 }
-
-.page-links {
+.che-brigade .page-links {
   clear: both;
   margin: 0 0 1.5em;
 }
-
-/* Comments
---------------------------------------------- */
-.comment-content a {
+.che-brigade .comment-content a {
   word-wrap: break-word;
 }
-
-.bypostauthor {
+.che-brigade .bypostauthor {
   display: block;
 }
-
-/* Widgets
---------------------------------------------- */
-.widget {
+.che-brigade .widget {
   margin: 0 0 1.5em;
 }
-
-.widget select {
+.che-brigade .widget select {
   max-width: 100%;
 }
-
-/* Media
---------------------------------------------- */
-.page-content .wp-smiley,
-.entry-content .wp-smiley,
-.comment-content .wp-smiley {
+.che-brigade .page-content .wp-smiley,
+.che-brigade .entry-content .wp-smiley,
+.che-brigade .comment-content .wp-smiley {
   border: none;
   margin-bottom: 0;
   margin-top: 0;
   padding: 0;
 }
-
-/* Make sure logo link wraps around logo image. */
-.custom-logo-link {
+.che-brigade .custom-logo-link {
   display: inline-block;
 }
-
-/* Captions
---------------------------------------------- */
-.wp-caption {
+.che-brigade .wp-caption {
   margin-bottom: 1.5em;
   max-width: 100%;
 }
-
-.wp-caption img[class*=wp-image-] {
+.che-brigade .wp-caption img[class*=wp-image-] {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-.wp-caption .wp-caption-text {
+.che-brigade .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
-
-.wp-caption-text {
+.che-brigade .wp-caption-text {
   text-align: center;
 }
-
-/* Galleries
---------------------------------------------- */
-.gallery {
+.che-brigade .gallery {
   margin-bottom: 1.5em;
   display: grid;
   grid-gap: 1.5em;
 }
-
-.gallery-item {
+.che-brigade .gallery-item {
   display: inline-block;
   text-align: center;
   width: 100%;
 }
-
-.gallery-columns-2 {
+.che-brigade .gallery-columns-2 {
   grid-template-columns: repeat(2, 1fr);
 }
-
-.gallery-columns-3 {
+.che-brigade .gallery-columns-3 {
   grid-template-columns: repeat(3, 1fr);
 }
-
-.gallery-columns-4 {
+.che-brigade .gallery-columns-4 {
   grid-template-columns: repeat(4, 1fr);
 }
-
-.gallery-columns-5 {
+.che-brigade .gallery-columns-5 {
   grid-template-columns: repeat(5, 1fr);
 }
-
-.gallery-columns-6 {
+.che-brigade .gallery-columns-6 {
   grid-template-columns: repeat(6, 1fr);
 }
-
-.gallery-columns-7 {
+.che-brigade .gallery-columns-7 {
   grid-template-columns: repeat(7, 1fr);
 }
-
-.gallery-columns-8 {
+.che-brigade .gallery-columns-8 {
   grid-template-columns: repeat(8, 1fr);
 }
-
-.gallery-columns-9 {
+.che-brigade .gallery-columns-9 {
   grid-template-columns: repeat(9, 1fr);
 }
-
-.gallery-caption {
+.che-brigade .gallery-caption {
   display: block;
 }
-
-/*--------------------------------------------------------------
-# Plugins
---------------------------------------------------------------*/
-/* Jetpack infinite scroll
---------------------------------------------- */
-/* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
-.infinite-scroll .posts-navigation,
-.infinite-scroll.neverending .site-footer {
+.che-brigade .infinite-scroll .posts-navigation,
+.che-brigade .infinite-scroll.neverending .site-footer {
   display: none;
 }
-
-/* Re-display the Theme Footer when Infinite Scroll has reached its end. */
-.infinity-end.neverending .site-footer {
+.che-brigade .infinity-end.neverending .site-footer {
   display: block;
 }
-
-/*--------------------------------------------------------------
-# Utilities
---------------------------------------------------------------*/
-/* Accessibility
---------------------------------------------- */
-/* Text meant only for screen readers. */
-.screen-reader-text {
+.che-brigade .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
   -webkit-clip-path: inset(50%);
@@ -892,8 +779,7 @@ textarea {
   width: 1px;
   word-wrap: normal !important;
 }
-
-.screen-reader-text:focus {
+.che-brigade .screen-reader-text:focus {
   background-color: #f1f1f1;
   border-radius: 3px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
@@ -913,38 +799,52 @@ textarea {
   width: auto;
   z-index: 100000;
 }
-
-/* Do not show the outline on the skip link target. */
-#primary[tabindex="-1"]:focus {
+.che-brigade #primary[tabindex="-1"]:focus {
   outline: 0;
 }
-
-/* Alignments
---------------------------------------------- */
-.alignleft {
+.che-brigade .alignleft {
   /*rtl:ignore*/
   float: left;
   /*rtl:ignore*/
   margin-right: 1.5em;
   margin-bottom: 1.5em;
 }
-
-.alignright {
+.che-brigade .alignright {
   /*rtl:ignore*/
   float: right;
   /*rtl:ignore*/
   margin-left: 1.5em;
   margin-bottom: 1.5em;
 }
-
-.aligncenter {
+.che-brigade .aligncenter {
   clear: both;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.5em;
 }
-
-a {
-  color: blue;
+.che-brigade .landing {
+  background-color: #1375BA;
+}
+.che-brigade .container {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .che-brigade .container {
+    max-width: 1440px;
+  }
+}
+@media (min-width: 768px) {
+  .che-brigade .mobile-only {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .che-brigade .desktop-only {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

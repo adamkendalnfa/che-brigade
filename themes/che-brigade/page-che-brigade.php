@@ -2,7 +2,7 @@
 get_header('brigade');
 ?>
 
-	<main id="primary" class="site-main">
+	<main id="primary" class="landing">
 
 
 		<!-- Hero -->
