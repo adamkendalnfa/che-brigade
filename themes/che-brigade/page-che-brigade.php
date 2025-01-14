@@ -10,28 +10,39 @@ get_header('brigade');
 			<div class="container">
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/hero.png" alt="">
+					<h2><span>Visit Cuba</span></h2>
 				</div>
 				<div class="content">
-					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula lorem non consectetur ultrices. </h2>
+					<div class="copy">
+						<p class="description">Join the 31st Che Brigade to support the Cuban people in their fight against U.S. imperialism. Be part of our solidarity movement!</p>
+						<p class="date">April 27 - May 10, 2025</p>
+					</div>
 					<div class="featured">
-						<p>Info Seminar</p>
-						<p class="date">Jan 19 1pm PST / 4pm EST</p>
-						<a href="/" class="btn">Register</a>
+						<p class="title">Info Webinar</p>
+						<p class="date">Jan 19 <br>1pm PST / 4pm EST</p>
+						<a href="/" class="btn">Sign Up</a>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="hero-divider">
+			<img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/hero-divider.svg" alt="">
+		</div>
 
-		<div class="info-block text-right">
+		
+		<!-- Info Block -->
+		<div class="info-block text-left">
 			<div class="container">
-				<div class="image">
-					<img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/info1.png" alt="">
-				</div>
 				<div class="copy">
-					<h3>Brigade Info and Mission</h3>
+					<h3>Our Mission</h3>
 					<p>Since 1993, hundreds of people living across Canada, of various ages, skills and backgrounds have enjoyed an exciting and informative two-week stay in Cuba with the Ernesto Che Guevara Volunteer Work Brigade.</p>
 					<p>The trip provides the opportunity to look at the gains and victories of the Cuban revolution, as well as see Cuba’s challenges first hand, particularly the impacts of over 60 years of illegal economic blockade from the United States. The Che Brigade fulfills two main goals; showing Canadian support for the struggle of the Cuban people to maintain their independence and an opportunity for people from Canada to know and understand the dynamic aspects of life in Cuba.</p>
 					<p>The Cuban people, who are committed to maintaining their revolution and its great gains, receive the Brigade participants, known as “Brigadistas”, with warmth and friendship. The fact that Brigadistas come from Canada to share friendship, reaffirms to many Cuban people that the social change they are carrying out is important, not only for their country, but for the entire world.</p>
+				</div>
+				<div class="image">
+					<div class="img-container">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/info1.png" alt="">
+					</div>
 				</div>
 			</div>
 		</div>	

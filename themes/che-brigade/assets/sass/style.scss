@@ -1,8 +1,13 @@
 .che-brigade {
   @import "variables";
   @import "normalize";
+  @import "components/header";
   @import "pages/landing";
+
   margin: 0;
+  margin-top: 105px;
+  overscroll-behavior-y: none;
+  overflow-x: hidden;
 
 
   .container {
@@ -14,11 +19,21 @@
     margin-left: auto;
 
     @media (min-width: $grid-md) {
-        max-width: 1440px;
+        max-width: 1380px;
       }
 
   }
 
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
   .mobile-only {
     @media (min-width: $grid-md) {
       display: none;
@@ -28,6 +43,24 @@
   .desktop-only {
     @media (max-width: $grid-sm-max) {
       display: none;
+    }
+  }
+
+  .btn {
+    background-color: $red;
+    color: white !important;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Archivo", serif;
+      font-weight: 700;
+    &:hover, 
+    &:focus {
+      text-decoration: none !important;
     }
   }
 }
